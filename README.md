@@ -5,6 +5,10 @@
 
 ### Problem Statement : Miscellaneous 5
 
+## ME&ME Documention
+
+click here : https://github.com/animesh288/Team-Dyad_PS-5/blob/main/ME%26ME%20Documentation.pdf
+
 ## Objective: 
 To create an informative AI-based tool that should be able to give alerts and identify cases of mental health issues in children and also track the improvement status in identified cases. It should be able to track mental health issues prevalent in children from birth to the ones which they acquired later in their life for remediation and counselling. The tool should support teacher’s assessment as well as parental and self-assessment.
 
@@ -79,6 +83,7 @@ POST Method on https://meme-prediction-api.herokuapp.com/predict <br>
 Flask REST API Testing : ( using PostMan)
 
 ![picture alt](https://github.com/animesh288/Team-Dyad_PS-5/blob/main/Readme%20Images/postman.JPG)
+
 
 ## CONTRIBUTED BY
 
