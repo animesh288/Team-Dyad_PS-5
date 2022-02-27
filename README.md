@@ -69,30 +69,30 @@ These pictures show the progress tracking portal of the
 user.
 ![picture alt](https://github.com/animesh288/Team-Dyad_PS-5/blob/main/Readme%20Images/A%20(6).jpeg) ![picture alt](https://github.com/animesh288/Team-Dyad_PS-5/blob/main/Readme%20Images/A%20(13).jpeg)
 
-### Backend System
+## Backend System
 
 ![picture alt](https://github.com/animesh288/Team-Dyad_PS-5/blob/main/Readme%20Images/nh.JPG)
 
-### ML API Flask API
+## ML API Flask API
 
 POST Method on https://meme-prediction-api.herokuapp.com/predict <br>
 Flask REST API Testing : ( using PostMan)
 
 ![picture alt](https://github.com/animesh288/Team-Dyad_PS-5/blob/main/Readme%20Images/postman.JPG)
 
-### CONTRIBUTED BY
+## CONTRIBUTED BY
 
 *Team Dyad*<br>
 Codeutsava 5.0 <br>
 2nd Year NIT Raipur
 
-### Team Members<br>
+## Team Members<br>
 Animesh Agrawal<br>
 Anushka Pant<br>
 Shrikrushna Bhagwat<br>
 Satwik Agrawal
 
-### ML Model
+## ML Model
 
 Link : https://github.com/animesh288/Team-Dyad_PS-5/tree/main/ML%20Model
 
