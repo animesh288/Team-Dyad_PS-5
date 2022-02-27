@@ -36,7 +36,7 @@ In our app we’ve also given parents and teachers a login feature, where they c
 
 The basic structure of the application is as follows:
 
-![picture alt](https://github.com/animesh288/Team-Dyad_PS-5/blob/main/Readme%20Images/Capture.JPG | width=20)
+![picture alt](https://github.com/animesh288/Team-Dyad_PS-5/blob/main/Readme%20Images/Capture.JPG =250x250)
 
 
 ### Colour Scheme:
