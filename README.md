@@ -92,5 +92,8 @@ Anushka Pant<br>
 Shrikrushna Bhagwat<br>
 Satwik Agrawal
 
+### ML Model
+
+Link : https://github.com/animesh288/Team-Dyad_PS-5/tree/main/ML%20Model
 
 
