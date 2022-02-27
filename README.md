@@ -36,6 +36,17 @@ In our app we’ve also given parents and teachers a login feature, where they c
 ###  DataSet Source : 
     https://wwwn.cdc.gov/nchs/nhanes/default.aspx
     
+## Backend System
+
+![picture alt](https://github.com/animesh288/Team-Dyad_PS-5/blob/main/Readme%20Images/nh.JPG)
+
+## ML API Flask API
+
+POST Method on https://meme-prediction-api.herokuapp.com/predict <br>
+Flask REST API Testing : ( using PostMan)
+
+![picture alt](https://github.com/animesh288/Team-Dyad_PS-5/blob/main/Readme%20Images/postman.JPG)
+
 ## UI Design:
 
 The basic structure of the application is as follows:
@@ -73,16 +84,6 @@ These pictures show the progress tracking portal of the
 user.
 ![picture alt](https://github.com/animesh288/Team-Dyad_PS-5/blob/main/Readme%20Images/A%20(6).jpeg) ![picture alt](https://github.com/animesh288/Team-Dyad_PS-5/blob/main/Readme%20Images/A%20(13).jpeg)
 
-## Backend System
-
-![picture alt](https://github.com/animesh288/Team-Dyad_PS-5/blob/main/Readme%20Images/nh.JPG)
-
-## ML API Flask API
-
-POST Method on https://meme-prediction-api.herokuapp.com/predict <br>
-Flask REST API Testing : ( using PostMan)
-
-![picture alt](https://github.com/animesh288/Team-Dyad_PS-5/blob/main/Readme%20Images/postman.JPG)
 
 
 ## CONTRIBUTED BY
