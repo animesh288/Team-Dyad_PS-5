@@ -29,31 +29,58 @@ This is governed by the four major parameters that we calculate from the large d
 <br>
 In our app we’ve also given parents and teachers a login feature, where they can access their ward’s profile to check their progress and confirm whether the ward is actually doing the tasks seriously or not. Which helps at increasing the accuracy of the application at tracking the user’s progress and also makes the task assigning feature more realistic.
 
-
+###  DataSet Source : 
+    https://wwwn.cdc.gov/nchs/nhanes/default.aspx
+    
 ## UI Design:
 
 The basic structure of the application is as follows:
 
+![picture alt](https://github.com/animesh288/Team-Dyad_PS-5/blob/main/Readme%20Images/Capture.JPG)
+
+
+### Colour Scheme:
+Purple is the main colour used in the colour scheme.The colour is associated
+with wisdom and spirituality. The rarity and mystery of it may make it seem
+linked to the unknown, supernatural, and divine. Purple shades represent
+different spiritual meanings. Generally, light purples represent light-hearted
+energies, while darker shades may represent sadness or frustration.
+We chose purple to be the main colour of the colour scheme because of the
+vibes and the energies associated with the colour, which will help the users
+further in their journey of combating ill mental health.
+
+![picture alt](https://github.com/animesh288/Team-Dyad_PS-5/blob/main/Readme%20Images/A%20(3).jpeg)
+
+### About the Logo:
+The logo of the application is designed in such a manner, that it comforts the user, and
+signifies how the application aims at taking care of the whole of an individual. And it tells the
+user how they have to bring their heart and brain together and wisely make the right
+decisions for their body and soul.
+<br>
+The given pictures show the login and sign-up pages for the
+application respectively.
+![picture alt](https://github.com/animesh288/Team-Dyad_PS-5/blob/main/Readme%20Images/A%20(2).jpeg) ![picture alt](https://github.com/animesh288/Team-Dyad_PS-5/blob/main/Readme%20Images/A%20(15).jpeg)
+<br>
+These pictures show how the user is required to fill in their
+various details
+![picture alt](https://github.com/animesh288/Team-Dyad_PS-5/blob/main/Readme%20Images/A%20(14).jpeg) ![picture alt](https://github.com/animesh288/Team-Dyad_PS-5/blob/main/Readme%20Images/A%20(12).jpeg)
+<br>
+These pictures show the progress tracking portal of the
+user.
+![picture alt](https://github.com/animesh288/Team-Dyad_PS-5/blob/main/Readme%20Images/A%20(6).jpeg) ![picture alt](https://github.com/animesh288/Team-Dyad_PS-5/blob/main/Readme%20Images/A%20(13).jpeg)
+
+### Backend System
+
 ![picture alt]()
 
-## GOAL
+### ML API Flask API
 
-Statistically finding out Depression Percentage, Means Converting a classification problem to a sort of Regression problem by using some statistical measures and corelation between feature
+POST Method on https://meme-prediction-api.herokuapp.com/predict <br>
+Flask REST API Testing : ( using PostMan)
 
+![picture alt]()
 
-## ACCURACIES
-
-| **Model**| Type | Score | 
-| --- | --- | --- |
-|1. Depression Status| RFC Classification | 0.83 |
-|2. Health Score | Linear Regression | 0.93 |
-|3. Addiction Score| Ridge Regression | 0.83 |
-|4. Sleep & Work Score | Ridge Regression | 0.96 |
-|5. Depression Score | Ridge Regression | 0.81 |
-
-
-
-## CONTRIBUTED BY
+### CONTRIBUTED BY
 
 *Team Dyad*<br>
 Codeutsava 5.0 <br>
