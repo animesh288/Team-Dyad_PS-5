@@ -86,7 +86,7 @@ Flask REST API Testing : ( using PostMan)
 Codeutsava 5.0 <br>
 2nd Year NIT Raipur
 
-*Team Members*<br>
+### Team Members<br>
 Animesh Agrawal<br>
 Anushka Pant<br>
 Shrikrushna Bhagwat<br>
