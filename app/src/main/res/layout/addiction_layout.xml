@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:scrollbars="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <CheckBox
+            android:id="@+id/marijuana_use"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/aclonica"
+            android:text="marijuana use"
+            android:textColor="@color/purple_200" />
+
+        <CheckBox
+            android:id="@+id/cocaine_use"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/aclonica"
+            android:text="cocaine use"
+            android:textColor="@color/purple_200" />
+
+        <CheckBox
+            android:id="@+id/heroine_use"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/aclonica"
+            android:text="heroine use"
+            android:textColor="@color/purple_200" />
+
+        <CheckBox
+            android:id="@+id/meth_use"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/aclonica"
+            android:text="meth use"
+            android:textColor="@color/purple_200" />
+
+        <CheckBox
+            android:id="@+id/inject_drugs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/aclonica"
+            android:text="injectible use"
+            android:textColor="@color/purple_200" />
+
+        <CheckBox
+            android:id="@+id/rehab_program"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/aclonica"
+            android:text="any rehab program"
+            android:textColor="@color/purple_200" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/aclonica"
+            android:text="Frequency of cocaine consumption"
+            android:textColor="@color/purple_200"
+            android:textSize="15dp" />
+
+        <com.google.android.material.slider.Slider
+            android:id="@+id/cocaine_number_uses"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:stepSize="1"
+            android:valueFrom="0.0"
+            android:valueTo="6"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/continuousRangeSlider" />
+
+
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/aclonica"
+            android:text="Frequency of meth consumption"
+            android:textColor="@color/purple_200"
+            android:textSize="15dp" />
+
+        <com.google.android.material.slider.Slider
+            android:id="@+id/meth_number_uses"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:stepSize="1"
+            android:valueFrom="0.0"
+            android:valueTo="6"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/continuousRangeSlider" />
+
+
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="At what age you started smoking?"
+            android:id="@+id/start_smoking_age"
+            android:inputType="number"
+            android:fontFamily="@font/aclonica"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/aclonica"
+            android:text="yesterday's smoking count"
+            android:textColor="@color/purple_200"
+            android:textSize="20dp" />
+
+        <com.google.android.material.slider.Slider
+            android:id="@+id/previous_cigarettes_per_day"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:stepSize="1"
+            android:valueFrom="0.0"
+            android:valueTo="95"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/continuousRangeSlider" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/aclonica"
+            android:text="today's smoking count"
+            android:textColor="@color/purple_200"
+            android:textSize="20dp" />
+
+        <com.google.android.material.slider.Slider
+            android:id="@+id/current_cigarettes_per_day"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:stepSize="1"
+            android:valueFrom="0.0"
+            android:valueTo="95.0"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/continuousRangeSlider" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/aclonica"
+            android:text="Drinks per occasion"
+            android:textColor="@color/purple_200"
+            android:textSize="20dp" />
+
+        <com.google.android.material.slider.Slider
+            android:id="@+id/drinks_per_occasion"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:stepSize="1"
+            android:valueFrom="0.0"
+            android:valueTo="83"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/continuousRangeSlider" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="submit"
+            android:id="@+id/submit_btn"/>
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>

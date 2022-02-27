@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "311584493492",
+    "project_id": "meandme-7d4f1",
+    "storage_bucket": "meandme-7d4f1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:311584493492:android:6860f5f31e676b8ae96ce1",
+        "android_client_info": {
+          "package_name": "com.android.meandme"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "311584493492-cjnum9rdt6hgit01dnjvfpdttgspmga3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCBWFrLip3MvjDgIZzaf6TxYzjap6hvLH8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "311584493492-cjnum9rdt6hgit01dnjvfpdttgspmga3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

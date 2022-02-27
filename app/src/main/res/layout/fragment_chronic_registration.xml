@@ -1,0 +1,503 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".fragments.ChronicRegistrationFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="cocaine consumption per month"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:textSize="15dp"
+        android:fontFamily="@font/aclonica"
+        android:textColor="@color/purple_200"/>
+
+    <com.google.android.material.slider.Slider
+        android:id="@+id/cocaine_per_month"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:stepSize="3"
+        android:valueFrom="0.0"
+        android:valueTo="99"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/continuousRangeSlider" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="heroine consumption per month"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:textSize="15dp"
+        android:fontFamily="@font/aclonica"
+        android:textColor="@color/purple_200"/>
+
+    <com.google.android.material.slider.Slider
+        android:id="@+id/heronine_per_month"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:stepSize="3"
+        android:valueFrom="0.0"
+        android:valueTo="99"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/continuousRangeSlider" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="marijuana consumption per month"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:textSize="15dp"
+        android:fontFamily="@font/aclonica"
+        android:textColor="@color/purple_200"/>
+
+    <com.google.android.material.slider.Slider
+        android:id="@+id/marijuana_per_month"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:stepSize="3"
+        android:valueFrom="0.0"
+        android:valueTo="99"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/continuousRangeSlider" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="meth consumption per month"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:textSize="15dp"
+        android:fontFamily="@font/aclonica"
+        android:textColor="@color/purple_200"/>
+
+    <com.google.android.material.slider.Slider
+        android:id="@+id/meth_per_month"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:stepSize="1"
+        android:valueFrom="0.0"
+        android:valueTo="30"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/continuousRangeSlider" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="smokers in your household"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:textSize="15dp"
+        android:fontFamily="@font/aclonica"
+        android:textColor="@color/purple_200"/>
+
+    <com.google.android.material.slider.Slider
+        android:id="@+id/household_smokers"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:stepSize="3"
+        android:valueFrom="0.0"
+        android:valueTo="99"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/continuousRangeSlider" />
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="months quit smoking"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:textSize="15dp"
+        android:fontFamily="@font/aclonica"
+        android:textColor="@color/purple_200"/>
+
+    <com.google.android.material.slider.Slider
+        android:id="@+id/days_quit_smoking"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:stepSize="3"
+        android:valueFrom="0.0"
+        android:valueTo="876"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/continuousRangeSlider" />
+
+
+    <CheckBox
+        android:id="@+id/asthma"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/aclonica"
+        android:text="asthma"
+        android:textColor="@color/purple_200" />
+
+    <CheckBox
+        android:id="@+id/heart_failure"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/aclonica"
+        android:text="heart_failure"
+        android:textColor="@color/purple_200" />
+
+    <CheckBox
+        android:id="@+id/blood_transfusion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/aclonica"
+        android:text="blood transfusion"
+        android:textColor="@color/purple_200" />
+
+    <CheckBox
+        android:id="@+id/anemia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/aclonica"
+        android:text="anemia"
+        android:textColor="@color/purple_200" />
+
+    <CheckBox
+        android:id="@+id/angina"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/aclonica"
+        android:text="angina"
+        android:textColor="@color/purple_200" />
+
+    <CheckBox
+        android:id="@+id/heart_disease"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/aclonica"
+        android:text="heart disease"
+        android:textColor="@color/purple_200" />
+
+    <CheckBox
+        android:id="@+id/Bone_Joint_problem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/aclonica"
+        android:text="Bone/Joint problem"
+        android:textColor="@color/purple_200" />
+
+    <CheckBox
+        android:id="@+id/stroke"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/aclonica"
+        android:text="stroke"
+        android:textColor="@color/purple_200" />
+
+    <CheckBox
+        android:id="@+id/bronchitis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/aclonica"
+        android:text="bronchitis"
+        android:textColor="@color/purple_200" />
+
+    <CheckBox
+        android:id="@+id/emphysema"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/aclonica"
+        android:text="emphysema"
+        android:textColor="@color/purple_200" />
+
+    <CheckBox
+        android:id="@+id/hay_fever"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/aclonica"
+        android:text="hay fever"
+        android:textColor="@color/purple_200" />
+
+    <CheckBox
+        android:id="@+id/liver_condition"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/aclonica"
+        android:text="liver condition"
+        android:textColor="@color/purple_200" />
+
+    <CheckBox
+        android:id="@+id/thyroid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/aclonica"
+        android:text="thyroid"
+        android:textColor="@color/purple_200" />
+
+    <CheckBox
+        android:id="@+id/walking_equipment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/aclonica"
+        android:text="walking equipment"
+        android:textColor="@color/purple_200" />
+
+    <CheckBox
+        android:id="@+id/cancer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/aclonica"
+        android:text="cancer"
+        android:textColor="@color/purple_200" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:hint="cancer 1 type"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu">
+
+        <AutoCompleteTextView
+            android:id="@+id/c1t"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/aclonica"
+            android:textColor="@color/purple_500"
+            android:inputType="none"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:hint="cancer 2 type"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu">
+
+        <AutoCompleteTextView
+            android:id="@+id/c2t"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/aclonica"
+            android:textColor="@color/purple_500"
+            android:inputType="none"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:hint="cancer 3 type"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu">
+
+        <AutoCompleteTextView
+            android:id="@+id/c3t"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/aclonica"
+            android:textColor="@color/purple_500"
+            android:inputType="none"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+
+    <CheckBox
+        android:id="@+id/healthcare_equipment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/aclonica"
+        android:text="healthcare equipment"
+        android:textColor="@color/purple_200" />
+
+    <CheckBox
+        android:id="@+id/arthritis"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/aclonica"
+        android:text="arthritis"
+        android:textColor="@color/purple_200" />
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:hint="arthritis"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu">
+
+        <AutoCompleteTextView
+            android:id="@+id/at"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/aclonica"
+            android:textColor="@color/purple_500"
+            android:inputType="none"
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <CheckBox
+        android:id="@+id/Back_Neck_problem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/aclonica"
+        android:text="Back/Neck problem"
+        android:textColor="@color/purple_200" />
+
+    <CheckBox
+        android:id="@+id/limitations"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/aclonica"
+        android:text="any limitations?"
+        android:textColor="@color/purple_200" />
+
+    <CheckBox
+        android:id="@+id/heart_attack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/aclonica"
+        android:text="heart attack"
+        android:textColor="@color/purple_200" />
+
+    <CheckBox
+        android:id="@+id/health_problem_Blood_Pressure"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/aclonica"
+        android:text="blood pressure problem"
+        android:textColor="@color/purple_200" />
+
+    <CheckBox
+        android:id="@+id/health_problem_Mental_Retardation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/aclonica"
+        android:text="mental trouble"
+        android:textColor="@color/purple_200" />
+
+    <CheckBox
+        android:id="@+id/health_problem_Hearing"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/aclonica"
+        android:text="hearing problem"
+        android:textColor="@color/purple_200" />
+
+    <CheckBox
+        android:id="@+id/health_problem_Vision"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/aclonica"
+        android:text="vision problem"
+        android:textColor="@color/purple_200" />
+
+    <CheckBox
+        android:id="@+id/health_problem_Diabetes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/aclonica"
+        android:text="diabetes"
+        android:textColor="@color/purple_200" />
+
+    <CheckBox
+        android:id="@+id/health_problem_Birth_Defect"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/aclonica"
+        android:text="any birth defect?"
+        android:textColor="@color/purple_200" />
+
+    <CheckBox
+        android:id="@+id/health_problem_Senility"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/aclonica"
+        android:text="senility/dementia"
+        android:textColor="@color/purple_200" />
+
+    <CheckBox
+        android:id="@+id/bronchitis_currently"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/aclonica"
+        android:text="have bronchitis currently?"
+        android:textColor="@color/purple_200" />
+    <CheckBox
+        android:id="@+id/thyroid_problem_currently"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/aclonica"
+        android:text="have liver problem currently?"
+        android:textColor="@color/purple_200" />
+
+
+    <CheckBox
+        android:id="@+id/liver_condition_currently"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/aclonica"
+        android:text="have liver problem currently?"
+        android:textColor="@color/purple_200" />
+
+    <CheckBox
+        android:id="@+id/health_problem_Other_Developmental"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/aclonica"
+        android:text="other developmental problem"
+        android:textColor="@color/purple_200" />
+
+    <CheckBox
+        android:id="@+id/health_problem_Other_Injury"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/aclonica"
+        android:text="other injury"
+        android:textColor="@color/purple_200" />
+
+    <CheckBox
+        android:id="@+id/health_problem_Breathing"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/aclonica"
+        android:text="other breathing problem?"
+        android:textColor="@color/purple_200" />
+
+    <CheckBox
+        android:id="@+id/health_problem_Other_Impairment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/aclonica"
+        android:text="any kind of impairment?"
+        android:textColor="@color/purple_200" />
+
+    <CheckBox
+        android:id="@+id/health_problem_Weight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/aclonica"
+        android:text="weight problem (underweight/overweight)?"
+        android:textColor="@color/purple_200" />
+
+
+    <Button
+        android:id="@+id/submit_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="submit" />
+
+
+</LinearLayout>
