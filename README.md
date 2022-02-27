@@ -40,7 +40,7 @@ In our app we’ve also given parents and teachers a login feature, where they c
 
 ![picture alt](https://github.com/animesh288/Team-Dyad_PS-5/blob/main/Readme%20Images/nh.JPG)
 
-## ML API Flask API
+## Machine Learning API Flask API
 
 POST Method on https://meme-prediction-api.herokuapp.com/predict <br>
 Flask REST API Testing : ( using PostMan)
