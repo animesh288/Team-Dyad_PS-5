@@ -32,12 +32,10 @@ We also have added a Gamified approach (Parent's approve the tasks donw by stude
 * Performed Exploratory Data Analysis
 * Split the dataset into Train and Test data.
 * Trained model with the following algorithms:
-	* Support Vector Classifier
-	* Naive Bayes Classifier
-	* KNN Classifier
-    * Decision Tree Classifier
     * Random Forest Classifier
-    * XGBoost Classifier
+    * Linear Regression
+    * Lasso Regression
+    * Ridge Regression
     * Logistic Regression
 * Also evaluated the performance of the model with highest accuracy.
 
@@ -71,16 +69,16 @@ gunicorn
 
 | **Model**| Type | Score | 
 | --- | --- | --- |
-|1. Depression Status| RFC Classification | 0.837 |
-|2. Health Score | Linear Regression | 0.939 % |
-|3. Addiction Score| Ridge Regression | 94.033722 % |
-|4. Sleep & Work Score | Ridge Regression | 89.775184 % |
-|5. Depression Score | Ridge Regression | 94.163424 % |
+|1. Depression Status| RFC Classification | 0.83 |
+|2. Health Score | Linear Regression | 0.93 |
+|3. Addiction Score| Ridge Regression | 0.83 |
+|4. Sleep & Work Score | Ridge Regression | 0.96 |
+|5. Depression Score | Ridge Regression | 0.81 |
 
 
 
 ## CONTRIBUTED BY
 
-*Team Dyad*
-Codeutsava 5.0 
+*Team Dyad*<br>
+Codeutsava 5.0 <br>
 2nd Year NIT Raipur
