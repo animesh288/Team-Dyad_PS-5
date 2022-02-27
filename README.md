@@ -86,6 +86,35 @@ user.
 
 
 
+## TechStack
+<br>
+Android	java & xml
+	-Volley
+	-android studio
+	
+<br>
+DataBase	
+    -Firebase
+	
+	
+<br>	
+Designing	
+    -AdobeXD
+	-Adobe Photshop
+<br>	
+Machine Learning	
+   - Python
+	-scikit-learn
+	-seaborn
+	-Matplotlib
+	-Flask
+    <br>
+Connectivity	
+    -Heroku
+	-GitHub
+	-Postman
+	
+
 ## CONTRIBUTED BY
 
 *Team Dyad*<br>
