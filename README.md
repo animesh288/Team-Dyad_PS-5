@@ -49,7 +49,7 @@ We chose purple to be the main colour of the colour scheme because of the
 vibes and the energies associated with the colour, which will help the users
 further in their journey of combating ill mental health.
 
-![picture alt](https://github.com/animesh288/Team-Dyad_PS-5/blob/main/Readme%20Images/A%20(3).jpeg | width=100)
+![picture alt](https://github.com/animesh288/Team-Dyad_PS-5/blob/main/Readme%20Images/A%20(3).jpeg)
 
 ### About the Logo:
 The logo of the application is designed in such a manner, that it comforts the user, and
@@ -59,7 +59,7 @@ decisions for their body and soul.
 <br>
 The given pictures show the login and sign-up pages for the
 application respectively.
-![picture alt](https://github.com/animesh288/Team-Dyad_PS-5/blob/main/Readme%20Images/A%20(2).jpeg | width=100) ![picture alt](https://github.com/animesh288/Team-Dyad_PS-5/blob/main/Readme%20Images/A%20(15).jpeg | width=100)
+![picture alt](https://github.com/animesh288/Team-Dyad_PS-5/blob/main/Readme%20Images/A%20(2).jpeg) ![picture alt](https://github.com/animesh288/Team-Dyad_PS-5/blob/main/Readme%20Images/A%20(15).jpeg)
 <br>
 These pictures show how the user is required to fill in their
 various details
