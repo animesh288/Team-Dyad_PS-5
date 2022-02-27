@@ -237,12 +237,12 @@
         android:fontFamily="@font/aclonica"
         android:layout_height="wrap_content"
         android:text="Trouble Sleeping?"/>
-    <CheckBox
-        android:id="@+id/alcoholic"
-        android:layout_width="match_parent"
-        android:fontFamily="@font/aclonica"
-        android:layout_height="wrap_content"
-        android:text="Ever been alcoholic?"/>
+<!--    <CheckBox-->
+<!--        android:id="@+id/alcoholic"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:fontFamily="@font/aclonica"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Ever been alcoholic?"/>-->
     <CheckBox
         android:id="@+id/smoker"
         android:layout_width="match_parent"
